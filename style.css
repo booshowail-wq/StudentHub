@@ -1,0 +1,100 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: navy;
+}
+
+p {
+    font-size: 16px;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Student Hub Content Box */
+
+.content-box {
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* Form Input Styles */
+
+input, select {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    background-color: lightyellow;
+    border-color: darkblue;
+}
+
+/* Form Buttons */
+
+input[type="submit"], input[type="reset"] {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: royalblue;
+}
+/* Drop-Down Menu */
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-weight: bold;
+}.dropdown ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    background-color: darkblue;
+    width: 180px;
+    padding: 10px;
+    list-style: none;
+    z-index: 10;
+}
+
+.dropdown:hover ul {
+    display: block;
+}
+
+.dropdown li {
+    padding: 10px;
+}
+
+.dropdown li:hover {
+    background-color: royalblue;
+}

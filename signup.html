@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Hub - Signup</title>
+<script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body><nav>
+    <a href="index.html">Home</a> |
+    <a href="login.html">Login</a> |
+    <a href="signup.html">Signup</a> |
+    <a href="about.html">About Us</a> |
+
+    <div class="dropdown">
+        <span>Services</span>
+
+        <ul>
+            <li><a href="index.html#services">Academic Services</a></li>
+            <li><a href="index.html#schedule">Academic Schedule</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <hr>
+<div class="content-box">
+    <h1>Create Your Student Hub Account</h1>
+<img src="images/studenthub.jpg"
+     alt="Student Hub"
+     width="400"
+     height="250"
+     usemap="#studentmap">
+
+<map name="studentmap">
+    <area shape="rect"
+          coords="0,0,400,250"
+          href="about.html"
+          alt="About Student Hub">
+</map>
+    <p>Join Student Hub to access academic services.</p>
+<form action="#" method="post" onsubmit="return checkPassword();">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname"
+               placeholder="Enter your full name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+
+        <br><br>
+
+        <label for="studentid">Student ID:</label><br>
+        <input type="text" id="studentid" name="studentid"
+               placeholder="Enter your student ID" required>
+
+        <br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"
+               placeholder="Create a password" required>
+
+        <br><br>
+
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword"
+               name="confirmPassword"
+               placeholder="Confirm your password" required>
+
+        <br><br>
+
+        <label for="major">Select Your Major:</label><br>
+        <select id="major" name="major" required>
+            <option value="">Choose your major</option>
+            <option value="IS">Information Systems</option>
+            <option value="CS">Computer Science</option>
+            <option value="IT">Information Technology</option>
+            <option value="SE">Software Engineering</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Sign Up">
+        <input type="reset" value="Clear">
+
+    </form>
+
+    <p>
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+</div>
+</body>
+
+</html>

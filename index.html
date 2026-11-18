@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Hub - Home</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body><nav>
+    <a href="index.html">Home</a> |
+    <a href="login.html">Login</a> |
+    <a href="signup.html">Signup</a> |
+    <a href="about.html">About Us</a> |
+
+    <div class="dropdown">
+        <span>Services</span>
+
+        <ul>
+            <li><a href="#services">Academic Services</a></li>
+            <li><a href="#schedule">Academic Schedule</a></li>
+        </ul>
+    </div>
+</nav>
+<hr>
+
+    <h1 style="color: darkblue; text-shadow: 2px 2px 4px gray;">
+    Welcome to Student Hub
+</h1>
+<p><a href="#schedule">Go to Academic Schedule</a>
+</p>
+<!-- Student Hub Image Map -->
+<img src="images/studenthub.jpg"
+     alt="University students studying together"
+     width="400"
+     height="250"
+     usemap="#studentmap">
+
+<map name="studentmap">
+    <area shape="rect"
+          coords="0,0,400,250"
+          href="about.html"
+          alt="About Student Hub"
+          title="Click to learn about Student Hub">
+</map>
+    <p>
+        Student Hub is a platform designed to help university
+        students access academic services and organize their
+        university life.
+    </p><!-- Our Services -->
+<div class="content-box"><h2 id="schedule">Weekly Academic Schedule</h2>
+    <ul>
+        <li>Academic Schedule</li>
+        <li>University Events</li>
+        <li>Student Resources</li>
+        <li>Academic Support</li>
+    </ul>
+
+</div>
+
+
+<!-- Weekly Academic Schedule -->
+<div class="content-box">
+
+    <h2>Weekly Academic Schedule</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Activity</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sunday</td>
+                <td>Web Programming</td>
+                <td>9:00 AM</td>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td>Database Systems</td>
+                <td>10:00 AM</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>Academic Workshop</td>
+                <td>11:00 AM</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+</body>
+
+</html>

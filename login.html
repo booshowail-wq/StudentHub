@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Hub - Login</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body><nav>
+    <a href="index.html">Home</a> |
+    <a href="login.html">Login</a> |
+    <a href="signup.html">Signup</a> |
+    <a href="about.html">About Us</a> |
+
+    <div class="dropdown">
+        <span>Services</span>
+
+        <ul>
+            <li><a href="index.html#services">Academic Services</a></li>
+            <li><a href="index.html#schedule">Academic Schedule</a></li>
+        </ul>
+    </div>
+</nav>
+    <hr>
+<div class="content-box">
+    <h1>Login to Student Hub</h1>
+<img src="images/studenthub.jpg"
+     alt="Student Hub"
+     width="400"
+     height="250"
+     usemap="#studentmap">
+
+<map name="studentmap">
+    <area shape="rect"
+          coords="0,0,400,250"
+          href="about.html"
+          alt="About Student Hub">
+</map>
+    <p>Welcome back! Please enter your account information.</p>
+
+    <form action="#" method="post">
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+
+        <br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"
+               placeholder="Enter your password" required>
+
+        <br><br>
+
+        <input type="submit" value="Login">
+        <input type="reset" value="Clear">
+
+    </form>
+
+    <p>
+        Don't have an account?
+        <a href="signup.html">Sign Up</a>
+    </p>
+</div>
+</body>
+
+</html>

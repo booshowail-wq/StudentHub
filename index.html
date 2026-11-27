@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Student Hub - Home</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
 </head>
 
 <body><nav>
@@ -29,8 +30,7 @@
 </h1>
 <p><a href="#schedule">Go to Academic Schedule</a>
 </p>
-<!-- Student Hub Image Map -->
-<img src="images/studenthub.jpg"
+<!-- Student Hub Image Map --><img id="studentImage" src="images/studenthub.jpg"
      alt="University students studying together"
      width="400"
      height="250"
@@ -42,12 +42,17 @@
           href="about.html"
           alt="About Student Hub"
           title="Click to learn about Student Hub">
-</map>
-    <p>
-        Student Hub is a platform designed to help university
-        students access academic services and organize their
-        university life.
-    </p><!-- Our Services -->
+</map>.
+<br>
+<button onclick="changePicture()">Change Picture</button>
+<p id="description">
+    Student Hub is a platform designed to help university
+    students access academic services and organize their
+    university life.
+</p>
+
+<button onclick="changeContent()">Discover More</button>
+    <!-- Our Services -->
 <div class="content-box"><h2 id="services">Academic Services</h2>
     <ul>
         <li>Academic Schedule</li>
